@@ -4,6 +4,18 @@ body {
   left: 170px;
 }
 
+h1 {
+  font-size: 36px;
+  font-family: 'Impact', sans-serif;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: 'Arial Narrow', sans-serif;
+  font-stretch: extra-condensed;
+  font-weight: lighter;
+  color: lightgray;
+}
 
 ul {
   list-style: none;
