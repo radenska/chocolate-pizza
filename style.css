@@ -1,6 +1,13 @@
+body {
+  position: relative;
+  width: 900px;
+  left: 170px;
+}
+
+
 ul {
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 li {
   display: inline;
