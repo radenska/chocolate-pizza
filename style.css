@@ -8,7 +8,6 @@ h1 {
   font-size: 36px;
   font-family: 'Impact', sans-serif;
   margin-bottom: 0;
-  vertical-align: text-bottom;
 }
 
 h2 {
@@ -28,7 +27,7 @@ h4 {
   color: lightgray;
   float: right;
   margin:0;
-  position: relative;
+  vertical-align: text-top;
 }
 
 h5 {
@@ -43,6 +42,10 @@ h6 {
   margin-top: 0;
   display: inline-block;
   margin-bottom: 0;
+  vertical-align: text-top;
+  font-family: arial;
+  font-size: 14px;
+  color: gray;
 }
 
 p {
@@ -112,6 +115,7 @@ main {
 article {
   clear: left;
   vertical-align: middle;
+  margin-bottom: 50px;
 }
 
 article img, p, button {
@@ -126,7 +130,42 @@ article p {
   width: 600px;
 }
 
-footer img {
+.line1, .line2 {
+  position: relative;
+  display: inline-block;
+  border-top: 1px solid lightgray;
+  width: 420px;
+}
+
+.line1 {
+  margin-right: 15px;
+  left: 0;
+}
+
+.line2 {
+  margin-left: 10px;
+  right: 0;
+}
+
+.lineImg {
+  position: relative;
+  display: inline-block;
+  /*margin: 0 auto;*/
+  top: 14px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
   display: block;
-  margin: 0 auto;
+  color: lightgray;
+  font-family: 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  vertical-align: text-bottom;
 }
