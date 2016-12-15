@@ -14,23 +14,35 @@ h2 {
   size: 18px;
 }
 
-h3 {
+.van {
   font-size: 23px;
-  color: gray;
+  color: black;
 }
 
 h4 {
+  display: inline-block;
   font-size: 16px;
   font-family: 'Arial Narrow', sans-serif;
   font-stretch: extra-condensed;
   font-weight: lighter;
   color: lightgray;
+  float: right;
+}
+
+h5 {
+  font-family: 'Arial Narrow', sans-serif;
+  color: lightgray;
+}
+
+h6 {
+  display: inline-block;
 }
 
 p {
   font-family: 'Times New Roman', serif;
   font-size: 20px;
   color: gray;
+  line-height: 27px;
 }
 
 ul {
@@ -42,6 +54,12 @@ li {
   color: black;
   font-family: 'Tahoma', sans-serif;
   font-size: 19px;
+}
+
+.delicious {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .ingredientsContainer {
@@ -56,6 +74,30 @@ li {
 }
 
 .ingredientsContainer ul {
+  vertical-align: top;
   padding-top: 20px;
   margin-left: 18px;
+  width: 320px;
+  height: 200px;
+}
+
+article {
+  vertical-align: middle;
+}
+
+article img, p, button {
+  display: inline-block;
+}
+
+article img {
+  margin-right: 40px;
+}
+
+article p {
+  width: 600px;
+}
+
+footer img {
+  display: block;
+  margin: 0 auto;
 }
