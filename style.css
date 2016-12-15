@@ -115,7 +115,7 @@ main {
 article {
   clear: left;
   vertical-align: middle;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 article img, p, button {
@@ -150,7 +150,6 @@ article p {
 .lineImg {
   position: relative;
   display: inline-block;
-  /*margin: 0 auto;*/
   top: 14px;
 }
 
@@ -168,4 +167,10 @@ footer p {
   margin: 0;
   padding: 0;
   vertical-align: text-bottom;
+}
+
+div .styleDiag {
+  background-image: repeating-linear-gradient(60deg, blue, blue 2em, white 0, white 4em);
+  width: 40px;
+  length: 40px;
 }
