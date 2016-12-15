@@ -7,6 +7,7 @@ body {
 h1 {
   font-size: 36px;
   font-family: 'Impact', sans-serif;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -27,15 +28,21 @@ h4 {
   font-weight: lighter;
   color: lightgray;
   float: right;
+  margin-bottom: 0;
 }
 
 h5 {
+  display: inline-block;
   font-family: 'Arial Narrow', sans-serif;
   color: lightgray;
+  line-height: 18px;
+  margin-left: 12px;
 }
 
 h6 {
+  margin-top: 0;
   display: inline-block;
+  margin-bottom: 0;
 }
 
 p {
@@ -45,15 +52,30 @@ p {
   line-height: 27px;
 }
 
-ul {
+header ul {
   list-style: none;
   display: inline-block;
+  float: right;
 }
+
+header img {
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.rss {
+  margin-left: 10px;
+}
+
 li {
   display: inline;
   color: black;
   font-family: 'Tahoma', sans-serif;
   font-size: 19px;
+}
+
+main {
+  clear: both;
 }
 
 .delicious {
@@ -77,11 +99,14 @@ li {
   vertical-align: top;
   padding-top: 20px;
   margin-left: 18px;
+  margin-bottom: 100px;
   width: 320px;
   height: 200px;
+  float: left;
 }
 
 article {
+  clear: left;
   vertical-align: middle;
 }
 
