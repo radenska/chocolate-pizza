@@ -17,26 +17,32 @@ h2 {
 }
 
 .van {
-  font-size: 23px;
+  font-size: 22px;
   color: black;
+  font-family: 'Garamond', serif;
+  font-weight: bold;
 }
 
 h4 {
   display: inline-block;
-  font-size: 16px;
+  font-size: 13px;
   font-family: 'Arial Narrow', sans-serif;
   color: lightgray;
+  text-shadow: 3px white;
   float: right;
   margin:0;
   vertical-align: text-top;
+  font-weight: lighter
 }
 
 h5 {
   display: inline-block;
   font-family: 'Arial Narrow', sans-serif;
-  color: lightgray;
-  line-height: 18px;
+  font-size: 11px;
+  color: slategray;
+  line-height: 15px;
   margin-left: 12px;
+  font-weight: lighter;
 }
 
 h6 {
@@ -44,15 +50,17 @@ h6 {
   display: inline-block;
   margin-bottom: 0;
   vertical-align: text-top;
-  font-family: arial;
-  font-size: 14px;
-  color: gray;
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 12px;
+  color: lightgray;
+  font-weight: lighter;
 }
 
 p {
-  font-family: 'Times New Roman', serif;
-  font-size: 20px;
-  color: gray;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  text-shadow: 2px 2px white;
+  color: black;
   line-height: 27px;
 }
 
@@ -92,8 +100,9 @@ main {
 
 .delicious {
   font-family: cursive;
+  color: black;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .ingredientsContainer {
@@ -182,4 +191,8 @@ hr.styleDiag {
 	height: 13px;
 	background: url(img/diagonal.png);
   border: 0;
+}
+
+.struck {
+  text-decoration: line-through;
 }
