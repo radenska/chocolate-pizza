@@ -5,10 +5,12 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   font-family: 'Impact', sans-serif;
   margin-bottom: 0;
   margin-top: 60px;
+  font-weight: bold;
+  color: #222220;
 }
 
 h2 {
@@ -27,7 +29,7 @@ h4 {
   display: inline-block;
   font-size: 13px;
   font-family: 'Arial Narrow', sans-serif;
-  color: lightgray;
+  color: #b4bfd3;
   text-shadow: 3px white;
   float: right;
   margin:0;
@@ -39,7 +41,7 @@ h5 {
   display: inline-block;
   font-family: 'Arial Narrow', sans-serif;
   font-size: 11px;
-  color: slategray;
+  color: #565455;
   line-height: 15px;
   margin-left: 12px;
   font-weight: lighter;
@@ -52,7 +54,7 @@ h6 {
   vertical-align: text-top;
   font-family: 'Arial Narrow', sans-serif;
   font-size: 12px;
-  color: lightgray;
+  color: #b4bfd3;
   font-weight: lighter;
 }
 
@@ -60,7 +62,7 @@ p {
   font-family: 'Garamond', serif;
   font-size: 19px;
   text-shadow: 2px 2px white;
-  color: black;
+  color: #4d5057;
   line-height: 27px;
   opacity: 0.6;
 }
@@ -83,7 +85,7 @@ header img {
 li {
   list-style-position: outside;
   display: inline;
-  color: black;
+  color: #6e6159;
   font-family: 'Tahoma', sans-serif;
   font-size: 19px;
   line-height: 25px;
@@ -148,10 +150,12 @@ article p {
   width: 600px;
 }
 
+
+
 .line1, .line2 {
   position: relative;
   display: inline-block;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid #ececec;
   width: 420px;
 }
 
@@ -178,14 +182,13 @@ footer {
 
 footer p {
   display: block;
-  color: gray;
+  color: #a9a8ae;
   font-family: 'Georgia', serif;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
   padding: 0;
   vertical-align: text-bottom;
-  opacity: 0.6;
 }
 
 div {
@@ -195,16 +198,16 @@ div {
 .share {
   display: inline-block;
   width: 205px;
-  height: 50px;
+  height: 55px;
   background-color: darkred;
   color: bisque;
-  font-family: 'Tahoma', sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 19px;
   text-align: center;
   vertical-align: top;
   opacity: 0.7;
   margin-top: 25px;
+  line-height: 3;
 }
 
 hr.styleDiag {
@@ -215,4 +218,8 @@ hr.styleDiag {
 
 .struck {
   text-decoration: line-through;
+}
+
+.cb {
+  background-color: #fefbea;
 }
