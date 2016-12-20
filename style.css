@@ -17,9 +17,9 @@ h2 {
 }
 
 .van {
-  font-size: 22px;
+  font-size: 20px;
   color: black;
-  font-family: 'Garamond', serif;
+  font-family: 'Georgia', serif;
   font-weight: bold;
 }
 
@@ -57,8 +57,8 @@ h6 {
 }
 
 p {
-  font-family: 'Georgia', serif;
-  font-size: 18px;
+  font-family: 'Garamond', serif;
+  font-size: 19px;
   text-shadow: 2px 2px white;
   color: black;
   line-height: 27px;
@@ -81,6 +81,7 @@ header img {
 }
 
 li {
+  list-style-position: outside;
   display: inline;
   color: black;
   font-family: 'Tahoma', sans-serif;
@@ -123,7 +124,8 @@ main {
   padding-top: 18px;
   margin-left: 18px;
   margin-bottom: 100px;
-  width: 320px;
+  margin-right: -80px;
+  width: 410px;
   height: 200px;
   float: left;
 }
@@ -134,12 +136,12 @@ article {
   margin-bottom: 35px;
 }
 
-article img, p, button {
+article img, p {
   display: inline-block;
 }
 
 article img {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 article p {
@@ -192,8 +194,8 @@ div {
 
 .share {
   display: inline-block;
-  width: 150px;
-  height: 55px;
+  width: 205px;
+  height: 50px;
   background-color: darkred;
   color: bisque;
   font-family: 'Tahoma', sans-serif;
@@ -202,7 +204,7 @@ div {
   text-align: center;
   vertical-align: top;
   opacity: 0.7;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 hr.styleDiag {
