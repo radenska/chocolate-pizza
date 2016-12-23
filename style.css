@@ -6,11 +6,11 @@ body {
 
 h1 {
   font-size: 38px;
-  font-family: 'Impact', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin-bottom: 0;
   margin-top: 60px;
-  font-weight: bold;
-  color: #222220;
+  color: #1a1a1a;
+  font-weight: 800;
 }
 
 h2 {
@@ -27,21 +27,21 @@ h2 {
 
 h4 {
   display: inline-block;
-  font-size: 13px;
-  font-family: 'Arial Narrow', sans-serif;
-  color: #b4bfd3;
+  font-size: 15px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #bfbfbf;
   text-shadow: 3px white;
   float: right;
   margin:0;
   vertical-align: text-top;
-  font-weight: lighter
+  font-weight: 100;
 }
 
 h5 {
   display: inline-block;
   font-family: 'Arial Narrow', sans-serif;
   font-size: 11px;
-  color: #565455;
+  color: #4d4d4d;
   line-height: 15px;
   margin-left: 12px;
   font-weight: lighter;
@@ -52,19 +52,20 @@ h6 {
   display: inline-block;
   margin-bottom: 0;
   vertical-align: text-top;
-  font-family: 'Arial Narrow', sans-serif;
-  font-size: 12px;
-  color: #b4bfd3;
-  font-weight: lighter;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 14px;
+  color: #bfbfbf;
+  font-weight: 100;
 }
 
 p {
   font-family: 'Garamond', serif;
   font-size: 19px;
   text-shadow: 2px 2px white;
-  color: #4d5057;
+  color: #1a1a1a;
   line-height: 27px;
   opacity: 0.6;
+  font-weight: 100;
 }
 
 header ul {
@@ -85,10 +86,11 @@ header img {
 li {
   list-style-position: outside;
   display: inline;
-  color: #6e6159;
+  color: #55552b;
   font-family: 'Tahoma', sans-serif;
   font-size: 19px;
   line-height: 25px;
+  font-weight: 100;
 }
 
 main {
@@ -104,10 +106,10 @@ main {
 }
 
 .delicious {
-  font-family: cursive;
-  color: black;
+  font-family: 'Yellowtail', cursive;
+  color: #1a1a1a;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 38px;
 }
 
 .ingredientsContainer {
@@ -182,13 +184,14 @@ footer {
 
 footer p {
   display: block;
-  color: #a9a8ae;
+  color: #8c8c8c;
   font-family: 'Georgia', serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
   margin: 0;
   padding: 0;
   vertical-align: text-bottom;
+  font-weight: 100;
 }
 
 div {
@@ -201,12 +204,13 @@ div {
   height: 55px;
   background-color: #bc7058;
   color: white;
-  font-family: 'Arial Narrow', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 19px;
   text-align: center;
   vertical-align: top;
   margin-top: 25px;
   line-height: 3;
+  font-weight: 100;
 }
 
 hr.styleDiag {
