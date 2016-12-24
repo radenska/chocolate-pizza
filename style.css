@@ -229,3 +229,7 @@ hr.styleDiag {
 .struck {
   text-decoration: line-through;
 }
+
+input [type="checkbox"] {
+  visibility: hidden;
+}
